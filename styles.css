@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: brown;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: aqua;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"], select, input[type="date"] {
+    padding: 5px;
+    margin-right: 5px;
+  }
+  
+  button {
+    padding: 5px 10px;
+  }
+  
+  #task-list {
+    margin-top: 10px;
+  }
+  
+  .task {
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .task .task-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .task .task-actions {
+    display: flex;
+  }
+  
+  .task .task-actions button {
+    margin-left: 5px;
+  }
+  
